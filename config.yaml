@@ -5,11 +5,11 @@ paginate: 5
 title: 笑容守恒定律
 
 languages:
-    en:
-        languageName: English
-        title: Example Site
-        description: Example description
-        weight: 1
+    # en:
+    #     languageName: English
+    #     title: Example Site
+    #     description: Example description
+    #     weight: 1
     zh-cn:
         languageName: 中文
         title: 笑容守恒定律
