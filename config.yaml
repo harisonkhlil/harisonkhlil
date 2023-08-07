@@ -134,8 +134,8 @@ params:
 
         gitalk:
             owner: 'harisonkhlil'
-            admin: ['harisonkhlil']
-            repo: 'blog-comment'
+            admin: 'harisonkhlil'
+            repo: 'harisonkhlil.github.io'
             clientID: 7f0fb9d51b06bbfc5f9f
             clientSecret: f6b603605864ee354722e59b039745f7cb46f08e
 
