@@ -70,7 +70,7 @@ params:
         provider: gitalk
 
         disqusjs:
-            shortname:
+            shortname: xiao-rong-shou-heng-ding-lu
             apiUrl:
             apiKey:
             admin:
@@ -135,7 +135,7 @@ params:
         gitalk:
             owner: 'harisonkhlil'
             admin: ['harisonkhlil']
-            repo: 'https://github.com/harisonkhlil/blog-comment.git'
+            repo: 'blog-comment'
             clientID: 7f0fb9d51b06bbfc5f9f
             clientSecret: f6b603605864ee354722e59b039745f7cb46f08e
 
