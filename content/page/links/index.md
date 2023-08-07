@@ -21,7 +21,7 @@ comments: true
 想要加入友链的请在下面留言并按照下面这种格式回复:
 
 ```markdown
-title: 博客名称
-weight: 博客网址
-image: 网址图标
+title: GitHub
+website: https://github.com
+image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 ```
