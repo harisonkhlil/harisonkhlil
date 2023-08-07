@@ -19,9 +19,12 @@ series:
 
 # Hello Hugo
 
-> The world’s fastest framework for building websites.   
->
->  — Hugo
+{{< quote author="Hugo" source="Hugo Website" url="https://gohugo.io/">}}
+The world's fastest framework for building website
+
+Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+{{< /quote >}}
+
 
 ## 阅前提要
 
@@ -107,7 +110,30 @@ content
         └── image2.png
 ```
 
-如果想要实现本博客的效果请前往 https://github.com/harisonkhlil/harisonkhlil 查看目录结构以及相关文件, 
+如果想要实现本博客的效果请前往 https://github.com/harisonkhlil/harisonkhlil 查看目录结构以及相关文件 
+
+## 文章预览
+
+```shell
+hugo server # 文章实时预览
+hugo #发布文章
+```
+
+## 网站同步
+
+```shell
+cd public
+git init -b main
+# 将 public 文件夹关联远程 GitHub Pages 仓库，使用 GitHub Pages 仓库的SSH链接。
+git remote add origin git@github.com:harisonkhlil/harisonkhlil.github.io.git # 这里请自行修改
+# 推送博客源仓库的 public 文件夹中的 HTML 网页文件到 GitHub Pages 仓库中，在推送仓库内容前要先用 git pull --rebase origin main 和远端仓库同步，否则会报错。
+git pull --rebase origin main 
+git add .
+git commit -m "init blog" 
+git push origin main #或者可能为 git push --set-upstream origin main
+```
+
+打开 https://username.github.io 看部署是否成功。
 
 ## 主题语法
 
@@ -160,25 +186,8 @@ Stack adds a `quote` shortcode.  For example:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 {{< /quote >}}
 
-## 文章预览
+## Reference
 
-```shell
-hugo server # 文章实时预览
-hugo #发布文章
-```
-
-## 网站同步
-
-```shell
-cd public
-git init -b main
-# 将 public 文件夹关联远程 GitHub Pages 仓库，使用 GitHub Pages 仓库的SSH链接。
-git remote add origin git@github.com:harisonkhlil/harisonkhlil.github.io.git # 这里请自行修改
-# 推送博客源仓库的 public 文件夹中的 HTML 网页文件到 GitHub Pages 仓库中，在推送仓库内容前要先用 git pull --rebase origin main 和远端仓库同步，否则会报错。
-git pull --rebase origin main 
-git add .
-git commit -m "init blog" 
-git push origin main #或者可能为 git push --set-upstream origin main
-```
-
-打开 https://username.github.io 看部署是否成功。
+- [hugo quick start](https://gohugo.io/getting-started/quick-start/)
+- [stack theme manual](https://stack.jimmycai.com/guide/getting-started)
+- [deploy your using hugo and github action](https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)
