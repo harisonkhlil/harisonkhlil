@@ -6,7 +6,7 @@
 🎓 &nbsp;I'm currently studying Computer Science and Mathematics at the University of Hactcm.enu.cn.\
 🌱 &nbsp;I'm on track for learning more about Artificial Intelligence, Systems Design, and Cloud Architecture.\
 ✍️ &nbsp;In my free time, I pursue Graphic Design and Blog Writing as hobbies/side hustles.\
-✉️ &nbsp;You can shoot me an email at harisonkhlil@gmail.com! I'll try to respond as soon as I can.\
+✉️ &nbsp;You can shoot me an email at harisonkhlil@gmail.com! I'll try to respond as soon as I can.
 
 <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
 
